@@ -20,3 +20,27 @@ https://osherove.com/
     }
 ```
 
+Tennis Match
+1) game won by first player who have at least 4 points in total and at lest 2 more than the oponent
+
+2) 0- => love
+
+​	fifteen => 1
+
+​	thirty => 2
+
+​	forty => 3
+
+```
+1-0
+fifteen - love
+2-0 thirty - love
+
+```
+
+3. if at least 3 points have been scored by each player and scores equal = `deuce`
+4. if at least 3 poinst scored by each player and player 1 has more than player 2 then it is advantage
+
+test:
+
+```php
